@@ -33,6 +33,12 @@ body{
 /*das Logo und die entdecke Seite*/
 
 /*Links zu den Weiteren Angeboten*/
+.Links_zu_den_Weiteren_Angeboten{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
 .info_Links{
     display: flex;
     justify-content: center;
@@ -43,11 +49,5 @@ body{
 
 .info_Links a{
     text-decoration: none;
-}
-
-.Links_zu_den_Weiteren_Angeboten{
-    display: flex;
-    justify-items: center;
-    align-items: center;
 }
 /*Links zu den Weiteren Angeboten*/

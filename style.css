@@ -28,6 +28,8 @@ body{
 }
 
 .Entdecken_Link a{
+    font-weight: 600;
+    color: #111;
     text-decoration: none;
 }
 /*das Logo und die entdecke Seite*/
@@ -44,10 +46,53 @@ body{
     justify-content: center;
     align-items: center;
     margin-left: 16px;
-    margin-right: 16px;
+    margin-right: 24px;
+}
+
+.auskunft_der_Weiteren_Produkte{
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 .info_Links a{
+    font-weight: 600;
+    color: #111;
     text-decoration: none;
+}
+
+.Bottom_Anmeldung{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E60023;
+    border-radius: 24px;
+    width: 110px;
+    height: 40px;
+    margin-right: 12px;
+    text-decoration: none;
+}
+
+.Bottom_Anmeldung a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #fff;
+}
+
+.Bottom_Registrieung a{
+    text-decoration: none;
+    font-weight: 600;
+    color:#111;
+}
+
+.Bottom_Registrieung{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E9E9E9;
+    border-radius: 24px;
+    width: 120px;
+    height: 40px;
+    text-decoration: none;
+    margin-right: 12px;
 }
 /*Links zu den Weiteren Angeboten*/

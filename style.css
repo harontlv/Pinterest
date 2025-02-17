@@ -8,6 +8,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 16px;
 }
 
 .Logo_and_Entdecken{
@@ -31,6 +32,45 @@ body{
     text-decoration: none;
 }
 /*das Logo und die entdecke Seite*/
+
+/*Die Animation des Textes*/
+.text-animation p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-animation {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+h1 {
+    font-size: 4.3em;
+    letter-spacing: -4px;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* Fade-In-Bottom Animation */
+.fadeInBottom {
+    animation: fadeInBottom 1s ease-out;
+}
+
+@keyframes fadeInBottom {
+    from {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+/*Die Animation des Textes*/
 
 /*Links zu den Weiteren Angeboten*/
 .Links_zu_den_Weiteren_Angeboten{

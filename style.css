@@ -33,11 +33,18 @@ body{
 }
 /*das Logo und die entdecke Seite*/
 
-/*Die Animation des Textes*/
-.text-animation p {
+/*Die Animation*/
+/*text animation*/
+.text-animation .header {
     display: flex;
     justify-content: center;
     align-items: center;
+    bottom: 100px;
+}
+
+.header{
+    font-size: 60px;
+    font-weight: 600;
 }
 
 .text-animation {
@@ -49,9 +56,9 @@ body{
 }
 
 h1 {
-    font-size: 4.3em;
+    font-size: 60px;
     letter-spacing: -4px;
-    font-weight: 700;
+    font-weight: 600;
     text-align: center;
 }
 
@@ -70,7 +77,48 @@ h1 {
         transform: translateY(0);
     }
 }
-/*Die Animation des Textes*/
+/*text animation*/
+
+/*dot animation*/
+.dot-Animation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dot {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 0 10px;
+    background-color: #000; /* Startfarbe */
+    animation: flash 1.5s infinite;
+}
+
+@keyframes flash {
+    0%, 100% {
+        background-color: #000; /* Start- und Endfarbe */
+    }
+    50% {
+        background-color: #ff0000; /* Farbe während der Animation */
+    }
+}
+
+/* Unterschiedliche Verzögerungen für jeden Punkt */
+.dot:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.dot:nth-child(2) {
+    animation-delay: 0.5s;
+}
+
+.dot:nth-child(3) {
+    animation-delay: 1s;
+}
+/*dot animation*/
+
+/*Die Animation*/
 
 /*Links zu den Weiteren Angeboten*/
 .Links_zu_den_Weiteren_Angeboten{

@@ -1,5 +1,5 @@
-const words = ["Idee", "Inspiration", "Projekt", "Lösung", "Kreativität"];
-const colors = ["#7e2ea0", "#2ea07e", "#a07e2e", "#2e7ea0", "#a02e7e"]; // Farben für jedes Wort
+const words = ["Abendessen an Wochentagen", "Einrichtungsidee", "Outfit im neuen Look", "Grüner Daumen"];
+const colors = ["#c28b00", "#2ea07e", "#a07e2e", "#2e7ea0", "#a02e7e"]; // Farben für jedes Wort
 const animatedText = document.getElementById("animatedText");
 let currentIndex = 0;
 
@@ -22,4 +22,4 @@ function changeWord() {
 }
 
 // Starte den Wortwechsel alle 2 Sekunden
-setInterval(changeWord, 2000);
+setInterval(changeWord, 4000);

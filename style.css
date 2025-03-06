@@ -43,6 +43,7 @@ body{
 }
 
 .header{
+    margin: 2px;
     font-size: 60px;
     font-weight: 600;
 }
@@ -50,14 +51,14 @@ body{
 .text-animation {
     width: 100%;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
 }
 
 h1 {
     font-size: 60px;
-    letter-spacing: -4px;
+    letter-spacing: 2px;
     font-weight: 600;
     text-align: center;
 }
@@ -80,45 +81,55 @@ h1 {
 /*text animation*/
 
 /*dot animation*/
-.dot-Animation {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.dot {
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    margin: 0 10px;
-    background-color: #000; /* Startfarbe */
-    animation: flash 1.5s infinite;
-}
-
-@keyframes flash {
-    0%, 100% {
-        background-color: #000; /* Start- und Endfarbe */
-    }
-    50% {
-        background-color: #ff0000; /* Farbe während der Animation */
-    }
-}
-
-/* Unterschiedliche Verzögerungen für jeden Punkt */
-.dot:nth-child(1) {
-    animation-delay: 0s;
-}
-
-.dot:nth-child(2) {
-    animation-delay: 0.5s;
-}
-
-.dot:nth-child(3) {
-    animation-delay: 1s;
-}
 /*dot animation*/
 
 /*Die Animation*/
+
+/*Und so funktioniert's*/
+.nächstenideeSuchen{
+    background:rgb(255, 253, 146);
+    height: 381px;
+    width: 100%;
+    margin-top: 400px;
+}
+
+.hühnchnen{
+    position: relative;
+    height: 344px;
+    width: 244px;
+    margin-top: 5px;
+    margin-left: 120px;
+    z-index: 1;
+}
+
+.Pizza{
+    position: absolute;
+    height: 138px;
+    width: 134px;
+    border-radius: 42px;
+    left: 300px;
+    bottom: 20px;
+}
+
+.Ei-Sandwich{
+    position: absolute;
+    height: 214px;
+    width: 150px;
+    border-radius: 42px;
+    left: 290px;
+    bottom: -300px;
+}
+
+.Brathühnen{
+    position: absolute;
+    height: 214px;
+    width: 150px;
+    border-radius: 42px;
+    left: 35px;
+    bottom: -150px;
+}
+/*Und so funktioniert's*/
 
 /*Links zu den Weiteren Angeboten*/
 .Links_zu_den_Weiteren_Angeboten{
